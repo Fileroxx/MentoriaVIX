@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background: #fc685b;
+  padding: 0.8rem 1rem;
+  border: 0;
+  color: #fff;
+  border-radius: 60px !important;
+  font-weight: 300;
+}
+
+header {
+  padding: 1rem;
+}
+
+header .logo {
+  text-align: left;
+  padding-top: 0.5rem;
+}
+
+header .botao {
+  text-align: right;
+}
+
+main {
+  background: url("../img/main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  padding: 5rem 0rem;
+  text-align: left;
+}
+
+main h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+main p {
+  font-size: 1.1rem;
+  font-family: "Heebo", sans-serif;
+  font-weight: 300;
+}
+
+main .boas-vindas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+main .boas-vindas .barra {
+  border-bottom: 3px solid #fc685b;
+  width: 30px;
+  margin-top: -1rem;
+  margin-right: 0.5rem;
+}
+
+#programs {
+  padding: 5rem 0;
+}
+
+#programs .services {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#programs .services .barra {
+  border-bottom: 3px solid #fc685b;
+  width: 30px;
+  margin-top: -1rem;
+  margin-right: 0.5rem;
+}
+
+#programs .services p {
+  color: #000;
+  font-weight: 300;
+}
+
+#programs h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+#programs h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 3rem;
+}
+
+#programs p {
+  color: #7a7a7a;
+  font-size: 1.1rem;
+  font-family: "Heebo", sans-serif;
+}
+
+#insights {
+  background: url("../img/insights.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  padding: 5rem 0;
+}
+
+#insights .insights {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#insights .insights .barra {
+  border-bottom: 3px solid #fc685b;
+  width: 30px;
+  margin-top: -1rem;
+  margin-right: 0.5rem;
+}
+
+#insights .insights p {
+  font-family: "Heebo", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  padding: 0;
+}
+
+#insights p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-top: 3rem;
+}
+
+#insights .botao {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+footer span {
+  font-size: 0.9rem;
+  font-weight: 300;
+  font-family: "Heebo", sans-serif;
+}
+
+footer p {
+  font-size: 1rem;
+  font-family: "Heebo", sans-serif;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  header .botao {
+    display: none;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header .botao {
+    display: none;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
